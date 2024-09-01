@@ -1,0 +1,103 @@
+body {
+  background-color: #f3f1f9;
+  font-family: "";
+}
+
+.weather-container {
+  background-color: #ffffff;
+  max-width: 570px;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.search-form {
+  margin-left: 10px;
+  padding: 30px 20px;
+}
+
+.search-form-input {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  background-color: #f9f7fe;
+  border-width: 10px;
+  border-style: initial;
+  border-radius: 5px;
+  padding: 20px 200px 20px 20px;
+  margin: 30px 5px 30px px;
+  height: 60px;
+}
+
+.search-button {
+  background-color: #885df1;
+  color: #ffffff;
+  font-size: 16px;
+  border-width: 45px;
+  border-style: initial;
+  border-radius: 5px;
+  padding: 20px 20px 20px;
+  height: 60px;
+  line-height: 20px;
+}
+
+.forecast-info-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0 50px;
+  margin-left: 10px;
+}
+
+.city-name {
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.forecast-info {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #A9A6B3;
+  padding-left: 15px;
+  margin-left: 10px;
+}
+
+.humidity,
+.wind-speed {
+  color: #F65282;
+  font-weight: 700;
+}
+
+.current-weather {
+  display: flex;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  align-items: center;
+  font-size: 88px;
+  font-weight: 700;
+}
+
+.weather-icon {
+  margin-right: 10px;
+  font-size: 60px;
+}
+
+.temperature-unit {
+  font-size: 28px;
+  position: relative;
+  top: -20px;
+  font-weight: 400;
+}
+
+footer {
+  color: #666666;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
