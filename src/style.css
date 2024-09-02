@@ -5,7 +5,7 @@ body {
 
 .weather-container {
   background-color: #ffffff;
-  max-width: 570px;
+  max-width: 650px;
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5);
   border-radius: 20px;
   margin: 50px auto;
@@ -21,7 +21,7 @@ body {
   font-family:Arial, Helvetica, sans-serif;
   font-size: 16px;
   background-color: #f9f7fe;
-  border-width: 10px;
+  border-width: 400px;
   border-style: initial;
   border-radius: 5px;
   padding: 20px 200px 20px 20px;
@@ -44,13 +44,14 @@ body {
 .forecast-info-container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   padding: 15px 0 50px;
   margin-left: 10px;
 }
 
 .city-name {
   color: black;
+  font-size: 38px;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -80,17 +81,26 @@ body {
   align-items: center;
   font-size: 88px;
   font-weight: 700;
+  top: -300px;
 }
 
 .weather-icon {
   margin-right: 10px;
   font-size: 60px;
+  align-self: center;
+}
+
+.temperature {
+  font-size: 88px;
+  font-weight: 700;
+  position: relative;
+  top: -1px;
 }
 
 .temperature-unit {
   font-size: 28px;
   position: relative;
-  top: -20px;
+  top: -px;
   font-weight: 400;
 }
 
