@@ -24,9 +24,8 @@ body {
   border-width: 400px;
   border-style: initial;
   border-radius: 5px;
-  padding: 20px 200px 20px 20px;
-  margin: 30px 5px 30px px;
-  height: 60px;
+  padding: 20px;
+  width: 75%;
 }
 
 .search-button {
